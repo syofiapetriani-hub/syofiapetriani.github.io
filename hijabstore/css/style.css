@@ -1,0 +1,179 @@
+section.products .product {
+    background-color: #ffe4ec;
+    border: 1px solid #ffc1d7;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(255, 133, 162, 0.1);
+}
+
+section.products .product:hover {
+    box-shadow: 0 4px 10px rgba(255, 133, 162, 0.2);
+}
+
+section.products h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #333;
+}
+
+section.products .price {
+    font-size: 0.95rem;
+    color: #ff5e7e;
+    font-weight: bold;
+}
+
+button.add-to-cart {
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.add-to-cart:hover {
+    background-color: #ff5e7e;
+}
+/* FORM LOGIN STYLING */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff0f6;
+}
+
+form.login-form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(255, 133, 162, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+form.login-form h2 {
+    text-align: center;
+    color: #ff5e7e;
+    margin-bottom: 20px;
+}
+
+form.login-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+form.login-form input[type="email"],
+form.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffd1e3;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff8fb;
+}
+
+form.login-form button {
+    width: 100%;
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.login-form button:hover {
+    background-color: #ff5e7e;
+}
+
+form.register-form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(255, 133, 162, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+form.register-form h2 {
+    text-align: center;
+    color: #ff5e7e;
+    margin-bottom: 20px;
+}
+
+form.register-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+form.register-form input[type="email"],
+form.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffd1e3;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff8fb;
+}
+
+form.register-form button {
+    width: 100%;
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.register-form button:hover {
+    background-color: #ff5e7e;
+}
+.btn-login {
+  background-color: #ff85a2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.btn-login:hover {
+  background-color: #ff5e7e;
+}
+
+.btn-daftar {
+  background-color: #ff69b4;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-daftar:hover {
+  background-color: #ff5e74e;
+}
